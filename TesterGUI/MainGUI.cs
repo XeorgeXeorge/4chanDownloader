@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace TesterGUI
 {
-    public partial class Form1 : Form
+    public partial class MainGUI : Form
     {
         static FourChanApi api = new FourChanApi();
         List<string> boardsOfInterest = new List<string>();
@@ -88,7 +88,7 @@ namespace TesterGUI
             }
         }
 
-        public Form1()
+        public MainGUI()
         {
             InitializeComponent();
         }

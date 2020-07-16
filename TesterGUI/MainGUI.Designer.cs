@@ -1,6 +1,6 @@
 ﻿namespace TesterGUI
 {
-    partial class Form1
+    partial class MainGUI
     {
         /// <summary>
         /// Erforderliche Designervariable.

@@ -14,9 +14,10 @@ namespace TesterGUI
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("niggers xd");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainGUI());
         }
     }
 }
