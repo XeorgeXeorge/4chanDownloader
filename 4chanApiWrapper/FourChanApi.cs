@@ -1,10 +1,10 @@
-﻿using _4chanApiWrapper.Models;
+﻿using FourChanAPIWrapper.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace _4chanApiWrapper
+namespace FourChanAPIWrapper
 {
     public class FourChanApi
     {

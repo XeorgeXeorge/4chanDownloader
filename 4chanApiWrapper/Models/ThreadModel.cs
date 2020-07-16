@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _4chanApiWrapper.Models
+namespace FourChanAPIWrapper.Models
 {
     public partial class Post
     {

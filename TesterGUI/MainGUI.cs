@@ -1,5 +1,5 @@
-﻿using _4chanApiWrapper;
-using _4chanApiWrapper.Models;
+﻿using FourChanAPIWrapper;
+using FourChanAPIWrapper.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +10,12 @@ namespace TesterGUI
 {
     public partial class MainGUI : Form
     {
+        public void Foo()
+        {
+            FourChanApi _api = new FourChanApi();
+        }
+
+
         static FourChanApi api = new FourChanApi();
         List<string> boardsOfInterest = new List<string>();
         public void DownloadImages()
