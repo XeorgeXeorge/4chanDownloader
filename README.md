@@ -5,8 +5,14 @@ The 4chanAPIWrapper is a .NET Library that does the calls to the 4chan API Endpo
 
 The TesterGUI is a simple GUI that uses the 4chanAPIWrapper Library to show and download the content
 
+# API Wrapper
+If you want to work on the API Wrapper, you have to incluide Newtonsoft.Json
+
 # Basic Setup
-First reference the Library .dll
+Reference the 4chanAPIWrapper.dll
+
+
+
 
 Then make sure you are adding both of these using's.
 ```c#
