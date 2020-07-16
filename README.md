@@ -29,5 +29,5 @@ IndexModel index = _api.GetPage("g", 1);
 ThreadModel thread = _api.GetThread("g", "76789611");
 ```
 
-# Example GUI you could make with the API
+# Example GUI
 ![EasyScrape](https://github.com/k0rdesii/4chanDownloader/blob/master/showoff.gif)
